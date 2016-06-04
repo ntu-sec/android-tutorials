@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onGetNameClick(View view) {
-        Intent getNameScreenIntent = new Intent(this, SecondScreen.class);
+        Intent intent = new Intent(this, SecondScreen.class);
         final int result = 1;
-        getNameScreenIntent.putExtra("callingActivity", "MainAAA");
-        startActivityForResult(getNameScreenIntent, result);
+        intent.putExtra("callingActivity", "MainAAA");
+        intent.putExtra("human", new Human("hongxu", "chen", 26));
+        startActivityForResult(intent, result);
     }
 
     @Override

@@ -17,10 +17,12 @@ public class SecondScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_layout);
         Intent activityThatCalled = getIntent();
-        String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
+        String data = activityThatCalled.getExtras().getString("callingActivity");
+
+        Human person = (Human) activityThatCalled.getExtras().get("human");
 
         TextView textView = (TextView) findViewById(R.id.calling_info_textview);
-        textView.setText(" " + previousActivity);
+        textView.setText(" " + person.getFirstName());
     }
 
     public void onSendUserName(View view) {

@@ -11,15 +11,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/enter_your_name" />
-
         <EditText
             android:id="@+id/users_name_edittext"
             android:layout_width="185dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/users_name_edittext"
+            android:text="@string/enter_your_name" />
 
     </LinearLayout>
 
@@ -37,10 +39,10 @@
             android:text="@string/enter" />
 
         <TextView
+            android:id="@+id/calling_info_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/calling_info_textview"
-            android:text="@string/calling_activity"/>
+            android:text="@string/calling_activity" />
 
     </LinearLayout>
 
