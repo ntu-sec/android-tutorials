@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HWAgain</string>
+    <string name="action_settings">Settings</string>
+    <string name="mybutton">MyButton</string>
+    <string name="textView_text1">hello world!</string>
+    <string name="textView_text2">toggle</string>
+</resources>

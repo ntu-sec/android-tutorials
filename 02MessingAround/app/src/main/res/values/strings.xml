@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MessingAround</string>
+    <string name="action_settings">settings</string>
+    <string name="goodbye">GoodBye you right!</string>
+    <string name="more_random_text">more random text</string>
+    <string name="_1st">1st</string>
+    <string name="_2st">2st</string>
+    <string name="_3st">3st</string>
+    <string name="are_you_happy">are you happy</string>
+    <string name="your_name">Your name</string>
+    <string name="yes_pick_me">yes pick me</string>
+    <string name="yes">yes</string>
+    <string name="no_pick_me">no pick me</string>
+    <string name="no">no</string>
+</resources>
