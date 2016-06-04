@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">05SwitchScreens</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">Enter</string>
+    <string name="calling_activity">calling activity</string>
+    <string name="go_get_the_name">go get the name</string>
+    <string name="go_get_it">go get it</string>
+    <string name="user_name_was">user name was:</string>
+</resources>
