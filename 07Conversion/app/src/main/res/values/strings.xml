@@ -3,4 +3,5 @@
     <string name="convert_from_text">Convert From</string>
     <string name="default_amount">1.0</string>
     <string name="default_teaspoon_val">1.0 teaspoon</string>
+    <string name="default_cup_amount">0.208 cup</string>
 </resources>
